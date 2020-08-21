@@ -1,4 +1,6 @@
 #!/bin/bash -x
+
+#Program to take a range of number as input and output the Prime Numbers in that range.
 read -p "Enter lower bound of the range: " a;
 read -p "Enter upper bound of the range: " b;
 

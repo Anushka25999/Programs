@@ -1,4 +1,6 @@
 #!/bin/bash -x
+
+#program that takes a input and determines if the number is a prime.
 read -p "Enter a positive integer: " n;
 flag=0;
 for (( i=2; i<=$n/2; i++ ))

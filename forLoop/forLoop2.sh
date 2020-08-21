@@ -1,4 +1,6 @@
 #!/bin/bash -x
+
+#Program that a command-line argument n and prints the nth harmonic number.
 read -p "Enter number: " n;
 harmonic=1;
 

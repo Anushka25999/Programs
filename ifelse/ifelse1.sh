@@ -1,4 +1,6 @@
 #!/bin/bash -x
+
+#reads 5 random 3 digit values and then outputs the minimum and the maximum value
 max=0;
 min=1000;
 for (( i=1; i<=5; i++ ))

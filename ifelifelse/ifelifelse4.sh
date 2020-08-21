@@ -1,4 +1,6 @@
 #!/bin/bash -x
+
+# Enter three numbers do following arithmetic operations and find the one that is maximum and minimum
 read -p "Enter number 1: " a;
 read -p "Enter number 2: " b;
 read -p "Enter number 3: " c;

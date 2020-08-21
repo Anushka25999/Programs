@@ -1,4 +1,6 @@
 #!/bin/bash -x
+
+#read a single digit number and write the number in word
 read -p "Enter number from 0 to 9: " num;
 if [ $num -eq 0 ]; then
 	echo "Zero";

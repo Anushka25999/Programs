@@ -1,4 +1,6 @@
 #!/bin/bash -x
+
+#program that takes user inputs and does unit conversion of different length units
 read -p "Enter Unit: " unit;
 echo "Enter Number for Conversion";
 echo "1 for Feet to Inch";

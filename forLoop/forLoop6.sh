@@ -1,6 +1,6 @@
  #!/bin/bash -x
-
-#to find factors of a number
+ 
+ #program to compute Factors of a number N using prime factorisation method.
 
 read -p "Enter number: " n;
 for (( i=2; i<=$n; i++ ));do

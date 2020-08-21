@@ -1,4 +1,6 @@
 #!/bin/bash -x
+
+#read a number and display the weekday
 read -p "Enter number from 1 to 7: " num;
 case $num in
 1)

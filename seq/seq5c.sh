@@ -1,5 +1,7 @@
 #!/bin/bash -x
 
+#Calculate area of 25 such plots in acres
+
 #Area of 1 rectangular plot in square feet
 l=60;
 b=40;

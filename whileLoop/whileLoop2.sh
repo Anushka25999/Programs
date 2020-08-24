@@ -1,5 +1,6 @@
 #!/bin/bash -x
 
+#Find the magic number
 echo "Think a number between 1 to 100";
 n=100;
 i=1;

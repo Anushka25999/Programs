@@ -1,10 +1,12 @@
 #!/bin/bash -x
 
+#function to generate 10 random 3 digit number
 function randNum(){
 	random=$((RANDOM%900+100))
 	return $random;
 	}
 
+#function to find 2nd largest element
 function print2largest(){
 	array=("$@")
 
@@ -26,6 +28,7 @@ function print2largest(){
 	echo "secondGreatest = $secondGreatest"
 }
 
+#function to find 2nd smallest element
 function print2smallest(){
         array=("$@")
 
@@ -47,7 +50,7 @@ function print2smallest(){
         echo "secondSmallest = $secondSmallest"
 }
 
-
+# Store random digits into an array
 n=10
 i=1
 while [ $i -le $n ]

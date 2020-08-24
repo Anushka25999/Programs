@@ -1,10 +1,12 @@
 #!/bin/bash -x
 
+#function to find 2nd largest
 function print2largest(){
         array=("$@")
 	echo "secondGreatest = ${array[8]};"
 }
 
+#function to find 2nd smallest
 function print2smallest(){
          array=("$@")
         echo "secondSmallest = ${array[1]};"

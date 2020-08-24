@@ -1,4 +1,6 @@
 #!/bin/bash -x
+
+#program to generate birthday month of 50 individuals between year 92 and 93. Find all the individuals having birthdays in the same month
 declare -A month
 counter=0;
 for(( i=1; i<=50; i++ ))

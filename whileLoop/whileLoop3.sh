@@ -1,4 +1,6 @@
 #!/bin/bash -x
+
+# Flip coin problem till either Heads or Tails wins 11 times
 h=0;
 t=0;
 while [[ $h -le 11 || $t -le 11 ]]

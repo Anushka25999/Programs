@@ -3,11 +3,13 @@ echo "Enter 1 for conversion from degC to degF";
 echo "Enter 2 for conversion from degF to degC";
 read -p "Enter : " ch;
 
+#function to convert degC to degF
 function degF() {
 	F=`echo - | awk -v c=$C '{print (c*9/5)+32}'`;
 	echo "$F deg F";
 	}
 
+#function to convert degF to degC
 function degC() {
 	C=`echo - | awk -v f=$F '{print (f-32)*5/9}'`;
 	echo "$C deg C";

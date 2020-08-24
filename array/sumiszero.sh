@@ -1,5 +1,6 @@
 #!/bin/bash -x
 
+#program to show sum of three integer adds to zero
 function findTriplets()
 {
     arr=("$@");

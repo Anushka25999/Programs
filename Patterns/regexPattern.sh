@@ -3,13 +3,13 @@
 #turn on external globbing
 shopt -s extglob
 #User registration
-read -p "Enter your First Name " fname
+read -p "Enter your Last Name " lname
 
 pat="^[[:upper:]]{1}[[:lower:]]{2,}$"
 
-if [[ $fname =~ $pat ]]
+if [[ $lname =~ $pat ]]
 then
-	echo "Valid Username"
+	echo "Valid Last Name"
 else
-	echo "Invalid Username"
+	echo "Invalid Last Name"
 fi

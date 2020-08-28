@@ -5,7 +5,7 @@ shopt -s extglob
 #User registration
 read -p "Enter your First Name " fname
 
-pat="^[A-Z][a-zA-Z]{2,}$"
+pat="^[[:upper:]]{1}[[:lower:]]{2,}$"
 
 if [[ $fname =~ $pat ]]
 then
